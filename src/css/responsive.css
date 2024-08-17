@@ -1,0 +1,50 @@
+@media (max-width: 1080px) {
+    main {
+        padding: 2rem;
+    }
+    .container {
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .container img {
+        align-self: center;
+        margin: unset;
+        max-width: 100%;
+    }
+    
+    .box-calculadora input {
+        font-size: 0.8rem;
+    }
+
+    .btn-calcular {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .result-valor {
+        font-size: 10px;
+    }
+    .title-calculadora {
+        font-size: 1.2rem;
+    } 
+
+    .box-calculadora {
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .container img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .calculadora {
+        padding: 0 1rem;
+    }
+
+    .box-calculadora input {
+        padding: 0;
+    }
+}

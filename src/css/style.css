@@ -1,0 +1,149 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+    color: white;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 500px;
+    margin-right: 2rem;
+}
+
+.container .calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(212, 108, 108, 0.342);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title-calculadora {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.checkbox-group {
+    padding-bottom: 1rem;
+}
+
+.checkbox-group .solicitacao-text {
+    padding-bottom: 0.5rem;
+}
+
+.label-check {
+    margin-right: 2rem;
+}
+
+.checkmark {
+    padding-left: 5px;
+}
+
+.alert {
+    display: none;
+    font-size: 0.6rem;
+    color: rgb(236, 129, 115);
+    font-weight: bold;
+  }
+
+.box-calculadora {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 28, 28);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.fas,
+.far,
+.box-calculadora span {
+    color: rgb(184, 178, 178);
+}
+
+.box-calculadora input {
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+    color: white;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.btn-calcular {
+    background-color: rgba(212, 108, 108, 0.342);
+    font-size: 1.5rem;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-calcular:hover {
+    background-color: rgba(212, 108, 108, 0.623);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.infos_results {
+    transition: all 0.3s ease;
+}
+
+.result-valor {
+    color: rgba(255, 255, 255, 0.856);
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    font-size: 13px;
+    border-bottom: 1px solid #ffffff77;
+    border-top: 1px solid #ffffff77;
+    text-transform: uppercase;
+}
+
+.more-info {
+    text-align: center;
+}
+
+.more-info a {
+    color: rgb(184, 178, 178);
+    transition: 0.3 ease;
+    text-decoration: none;
+}
+
+.more-info a:hover i,
+.more-info a:hover {
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
